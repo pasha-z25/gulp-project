@@ -1,0 +1,14 @@
+$base-color: orange;
+$text-size: 14px;
+$default-indent: 15px;
+
+body {
+  min-height: 100vh;
+  background: #aaaaaa url("../images/bg-body.jpg") no-repeat center/cover;
+}
+.content {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: $default-indent * 3;
+}

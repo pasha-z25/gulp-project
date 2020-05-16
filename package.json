@@ -1,0 +1,29 @@
+{
+  "name": "gulp-assembly",
+  "version": "1.0.0",
+  "description": "default gulp assembly",
+  "main": "index.js",
+  "scripts": {
+    "server": "gulp start-server",
+    "build": "gulp default"
+  },
+  "author": "Pasha Zubak",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-webserver": "^0.9.1",
+    "gulp-uglify": "^3.0.2"
+  }
+}
